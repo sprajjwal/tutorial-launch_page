@@ -3,23 +3,72 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Landing page</title>
+    <title>Launch page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src='main.js'></script>
 </head>
 <body>
-    <!--NAVBAR-->
-    <div>
-        navbar
-    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand" >
+        <a class="navbar-brand text-info" href="#"><strong>Navbar</strong></a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link text-light " href="#">Home</a>
+            <a class="nav-item nav-link text-white" href="#">Features</a>
+            <a class="nav-item nav-link text-light" href="#">Pricing</a>
+        </div>
+    </nav>
 
     <!-- HERO -->
-    <h1> Hello world</h1>
+    <div class="jumbotron text-center hero-background-img">
+        <h1 class="display-4"><strong>Launch Page</strong></h1>
+        <p class="lead">Best product ever</p>
+        <hr class="my-4">
+        <a class="btn btn-info btn-hover" href="#">Learn more</a>
+    </div>
+
+    <!-- BENEFITS -->
+    <div class="container mb-5 mt-5">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-4 pt-5 text-center">
+                <img src="images/cat1.jpeg" class="img-fluid rounded mb-5">
+                <h3>Safe</h3>
+                <p class="lead">what is lead?</p>
+                <p class="lead">Ipsum et anim pariatur laboris incididunt esse in cillum mollit dolore et cupidatat commodo eiusmod. Aliqua laboris excepteur ad incididunt sunt minim adipisicing. Labore esse mollit aliqua irure nisi qui velit adipisicing. Cillum magna aliqua ut nostrud aute est est anim excepteur culpa cillum id voluptate.</p>
+            </div>
+            <div class="col-lg-4 pt-5 text-center">
+                <img src="images/cat2.jpeg" class="img-fluid rounded mb-5">
+                <h3>Healthy</h3>
+                <p class="lead">Guess lead makes the text in it contrast more</p>
+                <p class="lead">Ipsum et anim pariatur laboris incididunt esse in cillum mollit dolore et cupidatat commodo eiusmod. Aliqua laboris excepteur ad incididunt sunt minim adipisicing. Labore esse mollit aliqua irure nisi qui velit adipisicing. Cillum magna aliqua ut nostrud aute est est anim excepteur culpa cillum id voluptate.</p>
+            </div>
+            <div class="col-lg-4 pt-5 text-center">
+                <img src="images/cat3.jpeg" class="img-fluid rounded mb-5">
+                <h3>Fun</h3>
+                <p>Where as this is what normal p tag text would look like</p>
+                <p class="lead">Ipsum et anim pariatur laboris incididunt esse in cillum mollit dolore et cupidatat commodo eiusmod. Aliqua laboris excepteur ad incididunt sunt minim adipisicing. Labore esse mollit aliqua irure nisi qui velit adipisicing. Cillum magna aliqua ut nostrud aute est est anim excepteur culpa cillum id voluptate.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CALL TO ACTION -->
+    <div class="jumbotron text-center mb-0">
+        <p class="lead mb-4">Sign up for more information</p>
+        <div class="d-flex justify-content-center">
+            <form action="#" class="form-inline">
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
+                <button type="submit" class="btn btn-info btn-hover mb-2">Submit</button>
+            </form>
+        </div>
+    </div>
+
 
     <!-- FOOTER -->
-    <footer>
-            Maybe a footer?
-    </footer>
+    <div class="bg-secondary text-white footer text-center">
+        &copy; 2019 Launch Page INC
+    </div>
 </body>
 </html>
