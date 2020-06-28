@@ -1,0 +1,43 @@
+body {
+  background-color: #8F544C;
+}
+
+.hero-background-img {
+  position: relative;
+  background-image: url("images/hero_image.jpeg");
+  background-blend-mode: darken;
+  /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  opacity: 1;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: #4F605E;
+}
+
+.btn-hover:hover {
+  background-color: #8F544C;
+}
+
+.jumbotron {
+  background-color: #F0E3DB;
+}
+
+.col-lg-4 {
+  background-color: #CE665A;
+}
+
+.footer {
+  height: 200px;
+  padding-top: 10vh;
+}
+
+/*# sourceMappingURL=index.css.map */

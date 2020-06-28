@@ -4,15 +4,16 @@ body {
 
 .hero-background-img {
     position: relative;
-    background: rgba(0, 0, 0, 0.9); /* If our image is bright, we can tone it down with this darker overlay */
+    background-image: url("images/hero_image.jpeg");
+    background-blend-mode: darken;
+     /* If our image is bright, we can tone it down with this darker overlay */
     padding-top:200px;  
     padding-bottom:200px;
-    background-image: url("images/hero_image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
 }
+
 .text{
     opacity:1;
 }

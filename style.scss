@@ -1,0 +1,46 @@
+$color1: #8F544C;
+$color2: #4F605E;
+$color3: #F0E3DB;
+$color4:  #CE665A;
+$size: 200px;
+
+body {
+  background-color: $color1;
+}
+
+.hero-background-img {
+  position: relative;
+  background-image: url("images/hero_image.jpeg");
+  background-blend-mode: darken;
+   /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top: $size;
+  padding-bottom: $size;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text{
+  opacity:1;
+}
+
+.navbar {
+  padding:1rem;
+  background-color: $color2;
+}
+
+.btn-hover:hover {
+  background-color: $color1;
+}
+.jumbotron{
+  background-color: $color3;
+}
+
+.col-lg-4 {
+  background-color: $color4;
+}
+
+.footer {
+  height: $size;
+  padding-top: 10vh;
+}
